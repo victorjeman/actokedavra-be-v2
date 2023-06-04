@@ -1,0 +1,17 @@
+{
+  "name": "actokedavra-be-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Victor JEMAN",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "node start.js",
+    "reset": "./reset-db.sh"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^0.17.3",
+    "nodemon": "^2.0.22"
+  }
+}
